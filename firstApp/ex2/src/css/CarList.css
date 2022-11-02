@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    color: #fff;
+}
+
+div.CarList a { color: #fff; }
+
+div.CarList img { border: 0; }
+
+div.CarList {
+    width: 700px;
+    border: 0px solid #fff;
+    margin: 60px auto; /* 60px 위아래, auto 좌우*  ::  화면 가운데 맞출때 사용*/
+    margin-bottom: 0px;
+}
+  
+div.CarList h1 {
+  margin: 10px;
+  font: bold 35px sans-serif;
+}
+
+ul#car-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.carBox{
+  width: 170px;
+  height: 200px;
+  border: 1px solid #fff;
+  margin: 0px 0px 46px 46px; /* 위쪽 오른쪽 아래쪽 왼쪽 */
+  float: left;
+  text-align: center;
+  padding-bottom: 10px;
+  
+}
+
+li.end{
+  float: none;
+  clear: both; /* 적용되었던 float 을 여기서 해제하라. */
+}
+
+li.carBox>span>a {
+  font: 12px sans-serif; 
+  text-decoration: none;
+}
+
+li.carBox>a {
+   display: block;
+   width: 160px;
+   height: 120px;
+   border: 5px solid #232323;
+}
+
+li.carBox>a:hover {
+  border: 5px solid #f00;
+
+}
+li.carBox>a {
+    border: 5px solid #000;
+  
+  }

@@ -1,0 +1,37 @@
+nav > a {
+    color: #fff;
+    margin-left: 20px;
+    font: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: darkgoldenrod;
+}
+
+section {
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid #fff; */
+}
+section article img {
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    margin-top: 3px;
+}
+
+section article div:first-child, section article table td:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+section article div:last-child {
+    padding-top: 20px;
+    font-size: 15px;
+}
+div.About {
+    width: 700px;
+    margin: 60px auto;
+}

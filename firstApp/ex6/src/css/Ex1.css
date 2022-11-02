@@ -1,0 +1,17 @@
+.form {
+    padding-top: 50px;
+}
+.form input, .form button {
+    padding: 9px;
+}
+
+.res {
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 600px;
+}
+
+.res input, .res button {
+    padding: 9px;
+}

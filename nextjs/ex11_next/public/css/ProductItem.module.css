@@ -1,0 +1,38 @@
+.wrap{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.img_area{
+    flex: 200px 0 0;
+}
+.img_area img{ display: block; }
+
+.info_area{
+    /* 요소의 크기가 불분명하거나, 동적인 경우에 각 요소를 정렬할 수 있는 방법 : flex 
+        (Flexible Box) 
+        2가지 개념 : - Container , - Items*/
+    flex: 1 0 0;
+}
+.title_item{
+    display: block;
+    font-size: 24px;
+    margin-top: 17px;
+}
+.price_item{
+    display: block;
+    font-size: 34px;
+    margin-top: 17px;
+    color:aquamarine;
+}
+.type_item{
+    display: block;
+    font-size: 24px;
+    margin: 20px 0 40px;
+}
+.disp_area{
+    width: 80%;
+    margin: 0 auto;
+}
